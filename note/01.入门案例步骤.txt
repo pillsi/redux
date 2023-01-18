@@ -1,0 +1,24 @@
+准备工作：
+1. 创建react项目
+在page下面监Home组件
+在App.js中引入Home组件
+安装redux - npm i redux
+
+构建action:
+1. 创建action，下面创建index.js，用来构建action
+2. 在action函数里，返回一个action对象，注意需要携带type属性，和默认值
+3. 导出action函数
+
+构建reducer:
+1. 创建action，创建index.js，用来构建reducer，reducer需要接收两个参数
+2. 第一个参数是state，需要构建初始化state，然后复制
+3. 在函数里面判断第二个参数，action的type值是不是我们在action里面发送的
+4. 如果是的话，可以通过return返回新的state
+5. 导出reducer
+
+构建store：
+1. 引入createStore
+2. 引入reducer
+3. 创建store，把我们自己写的reducer调用
+4. 导出store
+

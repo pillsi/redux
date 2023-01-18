@@ -16,7 +16,7 @@ export default function intro() {
       </div>
       <div>
         3. reducer
-        纯函数，为了秒数action如何改变state tree，可以被复用
+        纯函数，为了描述action如何改变state tree，可以被复用
         先接收state, action，然后返回新的state
       </div>
       <div>
